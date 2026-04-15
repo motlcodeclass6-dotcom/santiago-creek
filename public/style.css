@@ -1,1 +1,30 @@
-/* Add styles here */
+.framewrap{
+    height:400px;
+    overflow:hidden;
+    position: relative;
+}
+iframe{
+    position: absolute;
+    bottom:0;
+    height: 446px;
+    width: 400px;
+}
+#title{
+    width:90vw;
+    align-self: center;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.flexwrap{
+    width: 100vw;
+    flex-grow: 1;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
