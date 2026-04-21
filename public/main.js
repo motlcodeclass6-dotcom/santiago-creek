@@ -42,6 +42,7 @@ const fitCards = () => {
       // 4. Final Application
       p.style.width = (optimalW + 4) + 'px';
       card.classList.add("show")
+      document.getElementById("flexwrap").focus();
     });
   };
   

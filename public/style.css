@@ -8,6 +8,12 @@
     font-family: "Comfortaa", sans-serif;
     font-display: swap;
 }
+div#flexwrap:focus {
+    outline: none;
+  }
+  div#flexwrap:focus-visible {
+    outline:unset !important;
+  }
 .framewrap{
     height:350px;
     overflow:hidden;
